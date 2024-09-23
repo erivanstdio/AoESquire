@@ -1,92 +1,82 @@
 export default [
   {
-    id: '1',
-    name: 'Abbasid Dynasty',
-    flag: 'abbasid'
+    id: "1",
+    name: "Abbasid Dynasty",
+    flag: require("../assets/flags/abbasid.webp")
   },
   {
-    id: '2',
-    name: 'Ayyubids (Abbasid Variant)',
-    flag: 'ayyubids'
+    id: "2",
+    name: "Ayyubids",
+    flag: require("../assets/flags/ayyubids.webp")
   },
   {
-    id: '3',
-    name: 'Byzantines',
-    flag: 'byzantines'
+    id: "3",
+    name: "Byzantines",
+    flag: require("../assets/flags/byzantines.webp")
   },
   {
-    id: '4',
-    name: 'Chinese',
-    flag: 'chinese'
+    id: "4",
+    name: "Chinese",
+    flag: require("../assets/flags/chinese.webp")
   },
   {
-    id: '5',
-    name: 'Delhi Sultanate',
-    flag: 'delhi'
+    id: "5",
+    name: "Delhi Sultanate",
+    flag: require("../assets/flags/delhi.webp")
   },
   {
-    id: '6',
-    name: 'Dravidians',
-    flag: 'dravidians'
+    id: "6",
+    name: "English",
+    flag: require("../assets/flags/english.webp")
   },
   {
-    id: '7',
-    name: 'English',
-    flag: 'english'
+    id: "7",
+    name: "French",
+    flag: require("../assets/flags/french.webp")
   },
   {
-    id: '8',
-    name: 'French',
-    flag: 'french'
+    id: "8",
+    name: "Holy Roman Empire",
+    flag: require("../assets/flags/hre.webp")
   },
   {
-    id: '9',
-    name: 'Jeanne d\'Arc (French Variant)',
-    flag: 'jeannedarc'
+    id: "9",
+    name: "Japanese",
+    flag: require("../assets/flags/japanese.webp")
   },
   {
-    id: '10',
-    name: 'Holy Roman Empire',
-    flag: 'hre'
+    id: "10",
+    name: "Malians",
+    flag: require("../assets/flags/malians.webp")
   },
   {
-    id: '11',
-    name: 'Japanese',
-    flag: 'japanese'
+    id: "11",
+    name: "Mongols",
+    flag: require("../assets/flags/mongols.webp")
   },
   {
-    id: '12',
-    name: 'Malians',
-    flag: 'malians'
+    id: "12",
+    name: "Ottomans",
+    flag: require("../assets/flags/ottomans.webp")
   },
   {
-    id: '13',
-    name: 'Mongols',
-    flag: 'mongols'
+    id: "13",
+    name: "Rus",
+    flag: require("../assets/flags/rus.webp")
   },
   {
-    id: '14',
-    name: 'Order of the Dragon (Holy Roman Empire Variant)',
-    flag: 'orderofthedragon'
+    id: "14",
+    name: "Order of the Dragon",
+    flag: require("../assets/flags/orderofthedragon.webp")
   },
   {
-    id: '15',
-    name: 'Ottomans',
-    flag: 'ottomans'
+    id: "15",
+    name: "Sultanate of Delhi",
+    flag: require("../assets/flags/delhi.webp")
   },
   {
-    id: '16',
-    name: 'Persians',
-    flag: 'persians'
-  },
-  {
-    id: '17',
-    name: 'Rus',
-    flag: 'rus'
-  },
-  {
-    id: '18',
-    name: 'Zhu Xi\'s Legacy (Chinese Variant)',
-    flag: 'zhuxi'
+    id: "16",
+    name: "Zhu Xi",
+    flag: require("../assets/flags/zhuxi.webp")
   }
-];
+]

@@ -1,10 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
+import { styles } from './styles';
 
-// import { Container } from './styles';
-
-const Civilizations: React.FC = () => {
-  return <View />;
+export const Civilizations: React.FC = () => {
+  return (
+    <View style={styles.container}>
+      
+    </View>
+  );
 }
-
-export default Civilizations;

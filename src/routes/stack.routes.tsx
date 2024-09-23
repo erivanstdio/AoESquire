@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import { StatusBar, View } from 'react-native';
 import { light } from '../themes/colors';
 import { Home } from '../screens/Home';
-import Civilizations from '../screens/Civilizations';
+import { Civilizations } from '../screens/Civilizations';
 
 const { background } = light
 

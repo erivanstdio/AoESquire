@@ -7,10 +7,11 @@ import GradientText from '../MaskedView';
 
 type ButtonProps = {
     onPress: () => void;
+    title: string;
 }
 const { opaqueDarkGold, opaqueDarkAqua } = gradient
 
-export const Button: React.FC<ButtonProps> = ({onPress}) => {
+export const Button: React.FC<ButtonProps> = ({onPress, title}) => {
     return (
         <LinearGradient
             style={styles.buttonGradient}
@@ -19,7 +20,7 @@ export const Button: React.FC<ButtonProps> = ({onPress}) => {
             colors={[opaqueDarkGold, opaqueDarkAqua]}
         >
             <TouchableOpacity style={styles.button} onPress={onPress}>
-                <GradientText style={styles.buttonText}>Continue</GradientText>
+                <GradientText style={styles.buttonText}>{title}</GradientText>
             </TouchableOpacity>
         </LinearGradient>
     );

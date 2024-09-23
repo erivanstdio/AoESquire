@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
         height: 65,
     },
     buttonText: {
-        fontFamily: 'Poppins-Light',
-        fontSize: 15,
+        fontFamily: 'TrajanPro-Bold',
+        fontSize: 14,
     },
 })

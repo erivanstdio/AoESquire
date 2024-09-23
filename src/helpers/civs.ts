@@ -76,7 +76,7 @@ export default [
   },
   {
     id: "16",
-    name: "Zhu Xi",
+    name: "Zhu Xi's Legacy",
     flag: require("../assets/flags/zhuxi.webp")
   }
 ]

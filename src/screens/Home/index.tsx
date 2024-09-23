@@ -15,11 +15,11 @@ export const Home: React.FC = () => {
 
   return (
     <View style={styles.container} >
-      <Image source={require('../../assets/iconSplash.png')} style={styles.image} />
+      <Image source={require('../../assets/iconAoE4.webp')} style={styles.image} />
       <View style={styles.bottomBox}>
         <Text style={styles.upperText} >welcome to</Text>
-        <Text style={styles.lowerText} >AOE SQUIRE</Text>
-        <Button onPress={handleNavigation} />
+        <Text style={styles.lowerText} >AoE SQUIRE</Text>
+        <Button title="CONTINUE" onPress={handleNavigation} />
       </View>
     </View>
   );

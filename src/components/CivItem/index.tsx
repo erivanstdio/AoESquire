@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, Text, View } from 'react-native';
+import { styles } from './styles';
 
 type Props = {
   item: {
@@ -10,10 +11,9 @@ type Props = {
 
 export const CivItem: React.FC<Props> = ({ item }) => {
   return (
-    <View style={{ justifyContent: 'center',
-      alignItems: 'center', margin: 20}}>
-      <Image source={item.flag} style={{ width: 120, height: 80 }} />
-      <Text style={{color: 'white', fontFamily: 'CrimsonPro-Light', marginTop: 12}}>{item.name}</Text>
+    <View style={styles.itemContainer}>
+      <Image source={item.flag} style={styles.image} />
+      <Text style={styles.itemText}>{item.name}</Text>
     </View>
   );
 }

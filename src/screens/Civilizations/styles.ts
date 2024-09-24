@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import { light } from "../../themes/colors";
 
-const { background } = light
+const { white, background } = light
 
 export const styles = StyleSheet.create({
   container: {
@@ -9,6 +9,14 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  textInput: {
+    borderWidth: .3,
+    borderColor: 'white',
+    borderRadius: 10,
+    paddingHorizontal: 20,
+    width: '80%',
+    marginTop: 20
   },
   titleBox: {
     justifyContent: 'flex-start',
@@ -18,7 +26,12 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontFamily: 'CrimsonPro-ExtraLight',
-    color: 'white',
+    color: white,
     fontSize: 30
+  },
+  flatList: {
+    flex: 1,
+    width: '100%',
+    padding: 10
   }
 })

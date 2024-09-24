@@ -1,7 +1,4 @@
 import { StyleSheet } from "react-native";
-import { light } from "../../themes/colors";
-
-const { white, black } = light
 
 export const styles = StyleSheet.create({
     buttonGradient: {

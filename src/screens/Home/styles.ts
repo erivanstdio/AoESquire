@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 import { light } from "../../themes/colors";
 
 const { background, white } = light
+
 export const styles = StyleSheet.create({
     container: {
         backgroundColor: background,
